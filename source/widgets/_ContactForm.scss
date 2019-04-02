@@ -1,0 +1,31 @@
+.ContactForm {
+	.form form {
+		font-size: $fsBase * 0.75;
+		color: $clBase;
+		font-weight: 500;
+		p {display: none;}
+
+		.contact-form-name,
+		.contact-form-email {
+			width: 100%;
+		}
+
+		input,
+		textarea {
+			padding:12px 16px;
+			border: 1px solid lighten(#000, 85%);
+			width: 100%;
+			border-radius: 4px;
+			display: block;
+			margin: 16px 0;
+			box-sizing: border-box;
+		}
+
+		input[type="button"] {
+			width: auto;
+			font-weight: 500;
+			cursor: pointer;
+			display: inline-block;
+		}
+	}
+}
