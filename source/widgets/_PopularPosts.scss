@@ -1,0 +1,32 @@
+.popular-posts {
+
+	li {
+		margin-bottom: 16px;
+		border-bottom: 1px solid rgba(#000, .05);
+		&:last-child {border-bottom: 0;}
+	}
+
+	.item-thumbnail {
+		float: left;
+		margin-right: 8px;
+	}
+
+	.item-title {
+		font-size: $hSize * 0.75;
+		font-weight: 500;
+		a {
+			color: $cBase;
+			display: block;
+			padding: 16px 0;
+			padding-top: 0;
+		}
+	}
+
+	.item-snippet {
+		padding: 16px 0;
+		padding-top: 0;
+		line-height: $lhBase;
+		font-size: $fsBase;
+		color: $clBase;
+	}
+}
