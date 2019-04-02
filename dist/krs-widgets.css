@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*! Karasu-widgets - v1.0.0 © 2019 | Developed by Karasu themes (github.com/KuroSensei/karasu-layout)*/
+/*=> Entradas recomendadas */
+.FeaturedPost .post-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
+  .FeaturedPost .post-summary h3 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0;
+    font-size: 22px; }
+    .FeaturedPost .post-summary h3 a {
+      padding: 16px;
+      text-decoration: none;
+      color: #1e272e;
+      display: block; }
+  .FeaturedPost .post-summary img {
+    width: 100%;
+    height: 260px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .FeaturedPost .post-summary p {
+    background: #f8f8f8;
+    color: #50687b;
+    padding: 16px;
+    margin: 16px 0;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 500; }
+
+/*=> Buscador del blog */
+.BlogSearch .gsc-search-box {
+  width: 100%;
+  background: #f8f8f8;
+  border-radius: 12px;
+  overflow: hidden; }
+  .BlogSearch .gsc-search-box tbody tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .BlogSearch .gsc-search-box tbody tr .gsc-input,
+    .BlogSearch .gsc-search-box tbody tr .gsc-search-button {
+      background: transparent;
+      outline: 0;
+      border: 0; }
+    .BlogSearch .gsc-search-box tbody tr > .gsc-input {
+      width: 100%; }
+      .BlogSearch .gsc-search-box tbody tr > .gsc-input input {
+        height: 52px;
+        padding: 0 16px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+    .BlogSearch .gsc-search-box tbody tr > .gsc-search-button input {
+      height: 52px;
+      padding: 0 16px;
+      font-size: 14px;
+      font-weight: 500;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      cursor: pointer; }
+
+/*=> Perfil */
+/*=> Etiquetas */
+/*=> Entradas populares*/
+/*=> Formulario de Contacto */

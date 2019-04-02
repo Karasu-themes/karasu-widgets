@@ -1,0 +1,43 @@
+.BlogSearch {
+	.gsc-search-box {
+		width: 100%;
+		background: $bgLight;
+		border-radius: 12px;
+		overflow: hidden;
+		tbody {
+			tr {
+				display: flex;
+				align-items: center;
+
+				.gsc-input,
+				.gsc-search-button {
+					background: transparent;
+					outline: 0;
+					border: 0;
+				}
+
+				> .gsc-input {
+					width: 100%;
+					input {
+						height: 52px;
+						padding:0 16px;
+						width: 100%;
+						box-sizing: border-box;
+					}
+				}
+
+				> .gsc-search-button {
+					input {
+						height: 52px;
+						padding:0 16px;
+						font-size: 14px;
+						font-weight: 500;
+						width: 100%;
+						box-sizing: border-box;
+						cursor: pointer;
+					}
+				}
+			}	
+		}
+	}
+}
