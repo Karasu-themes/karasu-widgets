@@ -38,7 +38,7 @@
 .BlogSearch .gsc-search-box {
   width: 100%;
   background: #f8f8f8;
-  border-radius: 12px;
+  border-radius: 4px;
   overflow: hidden; }
   .BlogSearch .gsc-search-box tbody tr {
     display: -webkit-box;
@@ -71,6 +71,46 @@
       cursor: pointer; }
 
 /*=> Perfil */
+.Profile a {
+  text-align: center;
+  display: block; }
+  .Profile a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; }
+
+.Profile .profile-datablock {
+  margin: 0; }
+
+.Profile .profile-data a.profile-name-link {
+  background-image: initial !important;
+  text-decoration: none;
+  padding: 16px 0;
+  padding-bottom: 0;
+  font-weight: 500;
+  color: #50687b; }
+  .Profile .profile-data a.profile-name-link:hover {
+    color: #1e272e; }
+
+.Profile .profile-textblock {
+  margin: 16px 0;
+  padding: 16px;
+  line-height: 1.55;
+  font-size: 16px;
+  background: #f8f8f8;
+  color: #50687b; }
+
+.Profile .profile-link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  padding-top: 0;
+  font-weight: 500;
+  color: #50687b; }
+  .Profile .profile-link:hover {
+    color: #1e272e; }
+
 /*=> Etiquetas */
 /*=> Entradas populares*/
 /*=> Formulario de Contacto */

@@ -1,0 +1,53 @@
+.Profile {
+	a {
+		text-align: center;
+		display: block;
+		img {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+		}
+	}
+
+	.profile-datablock {
+		margin: 0;
+	}
+
+	.profile-data {
+		a.profile-name-link {
+			background-image: initial !important;
+			text-decoration: none;
+			padding: 16px 0;
+			padding-bottom: 0;
+			font-weight: 500;
+			color: $clBase;
+
+			&:hover {
+				color: $cBase;
+			}
+		}
+	}
+
+	.profile-textblock {
+		margin: 16px 0;
+		padding: 16px;
+		line-height: $lhBase;
+		font-size: $fsBase;
+		background: $bgLight;
+		color: $clBase;
+	}
+
+	.profile-link {
+		text-decoration: none;
+		display: block;
+		text-align: center;
+		padding: 16px;
+		padding-top: 0;
+		font-weight: 500;
+		color: $clBase;
+
+		&:hover {
+			color: $cBase;
+		}
+	}
+}
