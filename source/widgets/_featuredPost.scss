@@ -1,0 +1,41 @@
+.FeaturedPost {
+	.post-summary {
+		display: flex;
+		flex-direction: column-reverse;
+
+		// título
+
+		h3 {
+		    order: 1;
+		    margin: 0;
+		    font-size: $hSize;
+
+		    a {
+		    	padding: 16px;
+		    	text-decoration: none;
+		    	color: $cBase;
+		    	display: block;
+		    }
+		}
+
+		// imagen
+
+		img {
+			width: 100%;
+			height: 260px;
+			object-fit: cover;
+		}
+
+		// Resumen
+
+		p {
+			background: $bgLight;
+			color: $clBase;
+			padding: 16px;
+			margin: 16px 0;
+			font-size: $fsBase;
+			line-height: $lhBase;
+			font-weight: 500;
+		}
+	}
+}

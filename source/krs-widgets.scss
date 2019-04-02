@@ -1,8 +1,13 @@
 /*! Karasu-widgets - v1.0.0 © 2019 | Developed by Karasu themes (github.com/KuroSensei/karasu-layout)*/
 
-// Color base
+// Variables
 
-$colorBase: #111 !default;
+$cBase: #1e272e !default;
+$clBase: lighten($cBase, 25%);
+$bgLight: #f8f8f8 !default;
+$lhBase: 1.55 !default;
+$fsBase: 16px !default;
+$hSize: 22px;
 
 // Widgets
 
