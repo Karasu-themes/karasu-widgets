@@ -11,6 +11,18 @@ $hSize: 22px;
 
 // Widgets
 
+	/*=> Reset */
+	.widget .widget-content ul,
+	.widget .widget-content dt,
+	.widget .widget-content ol {
+		margin: 0;
+		padding: 0;
+	}
+
+	.widget .widget-content ul li {list-style: none;}
+	.widget .widget-content a {text-decoration: none;}
+
+
 	/*=> Entradas recomendadas */
 	@import 'widgets/featuredPost';
 
