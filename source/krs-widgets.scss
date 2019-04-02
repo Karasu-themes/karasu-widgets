@@ -1,0 +1,25 @@
+/*! Karasu-widgets - v1.0.0 © 2019 | Developed by Karasu themes (github.com/KuroSensei/karasu-layout)*/
+
+// Color base
+
+$colorBase: #111 !default;
+
+// Widgets
+
+	/*=> Entradas recomendadas */
+	@import 'widgets/featuredPost';
+
+	/*=> Buscador del blog */
+	@import 'widgets/blogSearch';
+
+	/*=> Perfil */
+	@import 'widgets/Profile';
+
+	/*=> Etiquetas */
+	@import 'widgets/Label';
+
+	/*=> Entradas populares*/
+	@import 'widgets/PopularPosts';
+
+	/*=> Formulario de Contacto */
+	@import 'widgets/ContactForm';
