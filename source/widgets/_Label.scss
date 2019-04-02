@@ -1,0 +1,56 @@
+.Label {
+	// lista
+	[class*="list-label-"] {
+		ul {
+			li {
+				display: flex;
+				align-items: center;
+				padding: 16px 0;
+				border-bottom: 1px solid rgba(#000, .1);
+				font-weight: 500;
+
+				&:last-child {border-bottom: 0;}
+
+				a, span {
+					color: $clBase;
+				}
+
+				&:hover {
+					a, span {
+						color: $cBase;
+					}
+				}
+				span {
+					margin: 0 6px;
+					font-size: $fsBase * .75;
+					opacity: .5;
+				}
+			}
+		}
+	}
+
+	[class*="cloud-label-"] {
+		.label-size {
+			display: inline-block;
+			background: $bgLight;
+			padding:10px 16px;
+			font-size: $fsBase *.85;
+			font-weight: 500;
+			margin-right: 8px;
+			margin-bottom: 8px;
+			border-radius: 4px;
+
+			a, span {
+				color: $clBase;
+			}
+
+			span {opacity: .5;}
+
+			&:hover {
+				span, a {
+					color: $cBase;
+				}
+			}
+		}
+	}
+}
